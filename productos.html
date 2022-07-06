@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="logo" href="fotos/logo.png">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Productos</title>
+</head>
+
+<body>
+    <div class="imagen">
+        <h1>Productos de Tecnologías </h1>
+    </div>
+    <div class="suscribir">
+        <h2>Suscríbete Para Obtener más Información</h2>
+        <form id="suscribir" name="suscribir">
+            <input type="email" id="email" name="email" placeholder="Ingrese el Email.">
+            <input type="submit" id="btnSuscribir " name="btnSuscribir" value="Suscribete">
+        </form>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row g-3">
+            <div class="col-sm-12 col-md-12 col-lg-12  text-center">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <nav class="navbar navbar-light bg-light">
+                            <div class="container">
+                                <a class="navbar-brand" href="index.html">
+                                    <img src="fotos/logo.png" alt="Logo" width="65" height="35">
+                                </a>
+                            </div>
+                        </nav>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                                <a class="nav-link active" href="productos.html">Productos</a>
+                                <a class="nav-link active" href="formulario.html">Formulario</a>
+                                <a class="nav-link active" href="ubicacion.html">Ubicación</a>
+                                <a class="nav-link active" href="acerca.html">Quiénes somos</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <br>
+        <div class="row g-3">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="fotos/banner1.png" class="d-block w-100" alt="Banner">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="fotos/banner2.png" class="d-block w-100" alt="Banner">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="fotos/banner3.png" class="d-block w-100" alt="Banner">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <h2 class="zona1">Área de Computación</h2>
+        <div class="row g-3">
+            <div class="col-xs-3 col-sm- col-md-3 col-lg-3 text-center">
+                <img src="productos/pc.png" class="img-fluid" alt="PC Gamer SP">
+                <p>PC Gamer SP Labs Berserker, RTX 3050, i5-11400, RAM 16GB(2x8) 3200Mhz, SSD 512GB, 650w, W10H</p>
+                <button class="btn btn-primary" onclick="sumar();">Agregar</button>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center">
+                <img src="productos/pc2.jpg" class="img-fluid" alt="PC Gamer SP">
+                <p>Setup Gamer Aprendiz, PC Gamer SP Labs MOBA, Monitor Gamer Titan Army 165Hz, Kit HyperX 4 en 1
+                </p>
+                <button class="btn btn-primary" onclick="sumar();">Agregar</button>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center">
+                <img src="productos/notebookhp.png"" class=" img-fluid" alt="PC Gamer SP">
+                <p>Notebook HP ZBook Fury 17 G8, i7-11800H, Ram 32GB, SSD 1TB, LED 17.3" FHD, RTX A3000, W10 Pro</p>
+                <button class="btn btn-primary" onclick="sumar();">Agregar</button>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center">
+                <img src="productos/notebook3.jpeg" class="img-fluid" alt="Notebook MSI ">
+                <p>Notebook MSI Katana GF76 11UD, i7-11800H, Ram 16GB, SSD 512GB, 17.3" FHD, RTX ™ 3050Ti, W10H
+                    17% DCTO.</p>
+                <button class="btn btn-primary" onclick="sumar();">Agregar</button>
+            </div>
+        </div>
+        <h2 class="zona1">Área Infantil</h2>
+        <div class="row g-3">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="fotos/bannerniños.jpeg" class="d-block w-100" alt="Banner">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="fotos/banner.png" class="d-block w-100" alt="Banner">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <br>
+        <div class="row g-3">
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center">
+                <img src="productos/Avión.jpeg" class="img-fluid" alt="...">
+                <p>
+                    Avión De Papel PowerUp, Control Bluetooth,Carga Rapida.</p>
+                <button class="btn btn-primary" onclick="sumar();">Agregar</button>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center">
+                <img src="productos/biotoys.jpeg" class="img-fluid" alt="Bio Toys">
+                <p>Caballo Solar Biotoys, con 3 Opciones de Montaje</p>
+                <button class="btn btn-primary" onclick="sumar();">Agregar</button>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center">
+                <img src="productos/espantacuco.jpeg" class="img-fluid" alt="espantacuco">
+                <p>Espantacuco para Bebés y Niños Happy Dino</p>
+                <button class="btn btn-primary" onclick="sumar();">Agregar</button>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center">
+                <img src="productos/macrogame.jpeg" class="img-fluid" alt="Macro Game">
+                <p>Juguete Bloques Magnéticos Macrogame Magneti Block, 100 Piezas </p>
+                <button class="btn btn-primary" onclick="sumar();">Agregar</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script>
+        var variableNumero = 0;
+        function sumar() {
+            variableNumero++;
+            alert("                 ** Has agregado un producto **\n ");
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+<footer class="page-footer font-small blue pt-4">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-6 mt-md-0 mt-3">
+                <p>Here you can use rows and columns to organize your footer content.</p>
+                <p> incluya correo y números de teléfono (ficticios) de la empresa. </p>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none pb-3">
+
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+
+                <!-- Links -->
+                <h5 class="text-uppercase">Ensamble de un pc</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+
+                        <a href="https://www.youtube.com/watch?v=auWZ2zIZBbo"><img src="fotos/youtube.png"
+                                alt="youtube"></a>
+                    </li>
+
+                </ul>
+
+            </div>
+            <div class="col-md-3 mb-md-0 mb-3">
+                <h5 class="text-uppercase">Que necesitas</h5>
+                <ul class="list-unstyled">
+                    <li>
+
+                        <a href="https://www.youtube.com/watch?v=UIwtqkMgELo"><img src="fotos/youtube.png" " alt="
+                                youtube"></a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="/"> MDBootstrap.com</a>
+    </div>
+
+
+
+
+</footer>
+
+</html>

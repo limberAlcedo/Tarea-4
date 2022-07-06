@@ -1,0 +1,156 @@
+.suscribir{
+    background-color: #483D8B;
+     padding: 20px 10%;
+     widows: 100%;
+ 
+ 
+ }
+ 
+ .suscribir h2{ 
+     color: white;
+     display:inline-block;
+
+ }
+ 
+ .suscribir form{
+     display: inline-block;
+     width: 45%;
+     text-align: right;
+ }
+ 
+ .suscribir input[type="submit"]{
+     background-color: tomato;
+     color: white;
+     padding: 5px;
+     background-position: right;
+ 
+ }
+ 
+ .suscribir input[type="email"]{
+    padding: 5px;
+    
+ }
+ #centrar{
+    text-align: center;
+    background-color: red;
+    border: 5px solid white;
+    background-color: #483D8B;
+    width: 400px;
+ }
+ #centrar form{
+    width: 350px;
+
+ }
+ #centrar form label{
+margin: 5px;
+ }
+ 
+ 
+ .z-depth-1-half{
+     padding: 5%;
+ }
+ 
+ .imagen{
+     min-height: 100px; /*Minima altura*/
+     background-image:  url("../evaluacion3/fotos/portada.jpg");
+     /*background-repeat: repeat;    /*para que no se repita la imagen*/
+     background-position: center;
+     background-color: black;/*color de fondo relleno*/
+     max-height: 100%;
+     width: auto;
+     height: 150px;
+   
+ }
+#terminos{
+    margin: 40px auto;
+    text-align: center;
+    width: 80px auto;
+    text-align: left;
+}
+#terminos p{
+    text-align: justify;
+    margin: 20px;
+}
+#banner_acerca{
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.imagen h1{
+    margin:0; 
+    padding: 60px;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+
+body
+{
+    background-color: #483D8B	;
+    color: white;
+}
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p {
+    text-align: center;
+    width: auto 20px;  
+    margin: 10px auto;  
+}
+img{
+    border-radius: 10px;
+}
+#p_acerca{
+ margin-top: 30px;
+}
+.parrafos{
+    border-radius: 10px;
+    border: 5px solid white;
+    background-color: #483D8B;
+    margin-top: 30px;
+    padding: 10px;
+}
+.localizanos{
+    border-radius: 10px;
+    border: 5px solid white;
+    background-color: #483D8B;
+    margin-top: 50px;
+    padding: 20px;
+}
+.zona1 {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #292626	;
+}
+.p_index{
+    width: 250px ;
+    margin: 20px auto;
+    border-radius: 15px;
+    padding: 10px;
+    border: 2px solid white
+}
+
+footer{
+    margin: 30px auto;
+}
+ul{
+    list-style: none;
+
+}
+.footer_li img {
+list-style: none;
+
+}
+footer ul li img{
+    width: 40px;
+
+}
